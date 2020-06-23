@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The cats!</string>
+    <string name="add_to_favorite">Which action do you want?</string>
+    <string name="favorite">Favorite</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="download">Download</string>
+    <string name="ask_permissions">Please grant permissions first</string>
+    <string name="downloading">Downloading…</string>
+    <string name="downloading_description">Downloading selected picture…</string>
+    <string name="favorites">Favorites</string>
+</resources>
