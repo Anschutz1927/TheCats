@@ -1,3 +1,2 @@
 include ':thecatapi'
-include ':app'
 rootProject.name = "The cats!"
