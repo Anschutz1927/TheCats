@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    style="@style/Animation.Design.BottomSheetDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pre_transparent">
+
+    <TextView
+        android:id="@+id/button_favorite"
+        style="@style/bottom_sheet_buttons_style"
+        android:text="@string/add_to_favorite"
+        app:drawableStartCompat="@drawable/ic_two_tone_stars_24"
+        app:drawableTint="@color/half_transparent"
+        app:layout_constraintBottom_toTopOf="@id/button_download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/button_download"
+        style="@style/bottom_sheet_buttons_style"
+        android:text="@string/download_picture"
+        app:drawableStartCompat="@drawable/ic_two_tone_save_24"
+        app:drawableTint="@color/half_transparent"
+        app:layout_constraintBottom_toTopOf="@id/button_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/button_cancel"
+        style="@style/bottom_sheet_buttons_style"
+        android:text="@string/cancel"
+        app:drawableStartCompat="@drawable/ic_two_tone_cancel_24"
+        app:drawableTint="@color/half_transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
